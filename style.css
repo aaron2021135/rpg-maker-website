@@ -1,2 +1,40 @@
-style.css
-save
+body {
+  background-image: linear-gradient(to right, purple , yellow);
+}
+
+h2 {
+  text-align: center;
+
+  font-family: serif;
+}
+
+p {
+  text-align: center;
+    font-style: italic;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+img {
+
+margin-left: 10%;
+margin-right: 10%;
+width: 20%;
+}
+
+h3{
+  font-size: 25px;
+}
