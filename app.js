@@ -1,3 +1,3 @@
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('database.db');
-db.run();
+db.run("CREATE TABLE lorem (something else TEXT)");
